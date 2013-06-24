@@ -4,7 +4,7 @@ dataSource {
     driverClassName = "org.postgresql.Driver"
     //driverClassName = "org.apache.derby.jdbc.ClientDriver"
     username = "postgres"
-    password = "admin"
+    password = "postgres"
 }
 hibernate {
     cache.use_second_level_cache = true
