@@ -4,7 +4,7 @@ dataSource {
     driverClassName = "org.postgresql.Driver"
     //driverClassName = "org.apache.derby.jdbc.ClientDriver"
     username = "postgres"
-    password = "postgres"
+    password = "slipknot19902"
 }
 hibernate {
     cache.use_second_level_cache = true
@@ -17,7 +17,7 @@ environments {
         dataSource {
             dbCreate = "update" // one of 'create', 'create-drop', 'update', 'validate', ''
             //url = "jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000"
-            url = "jdbc:postgresql://localhost:5432/colegios"
+            url = "jdbc:postgresql://localhost:5432/colegio"
             //url = "jdbc:derby://localhost:1527/colegios"
         }
     }
